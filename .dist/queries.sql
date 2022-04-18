@@ -6,9 +6,8 @@ use todoapp;
 create table tasks(
     id integer primary key,
     task varchar(20) not null,
-    finished boolean,
+    finished boolean
 );
-
 
 insert into tasks values(1, 'clean room', false);
 insert into tasks values(2, 'do shoppings', false);
