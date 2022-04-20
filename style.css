@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.h1todo,
+.h2addtask,
+form,
+ul,
+select {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.banner {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+}
+.team {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  bottom: 80px;
+  margin: 0;
+  padding: 0;
+}
+.sonic {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.task-box {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0.2em 0;
+  margin: 0 0 0.3em 0;
+}
+
+.task-box button {
+  margin-right: 2em;
+  background-color: aliceblue;
+  border-style: none;
+}
+
+.task-text {
+  margin: 5px;
+}
+
+button {
+  padding: 0 0.2em 0 0.2em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  padding-top: 1em;
+}
